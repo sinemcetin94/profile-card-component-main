@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    
+}
+ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    min-height: 100vh;
+    text-align: center;
+}
+html{
+    font-size: 100%;
+    font:inherit;
+}
+body{
+    background: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile{
+
+    max-width: 24rem;
+    margin-bottom: 1rem;
+}
+
+.bg_pattern_card{
+   background: url("images/bg-pattern-card.svg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 10em;
+   border-top-right-radius: 1rem;
+   border-top-left-radius: 1rem;
+
+}
+.content{
+    background-color: #fff;
+}
+.img_vic{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    bottom: 0;
+    margin: 7em;
+}
+.content{
+    font-family: 'Kumbh Sans', sans-serif;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.text-name{
+    padding-top: 4em;
+    font-weight: 700;
+    color:  hsl(229, 23%, 23%);
+}
+.text-name span{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    padding-left: .4em;
+}
+.text-city{
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 1rem;
+    margin-top: .6rem;
+}
+.stat{
+    display: flex;
+    justify-content: space-around;
+    border-top: .1px solid hsl(0, 0%, 59%);
+    margin-top: 1em;
+    padding: 2em 1em;
+}
+.stat li{
+    font-weight: 700;
+}
+.stat li span{
+    display: block;
+    font-weight: 400;
+    font-size: .8rem;
+    color: hsl(0, 0%, 59%);
+}
+@media screen and (max-width:376px) {
+    .profile{
+        width: auto;       
+    }
+}
