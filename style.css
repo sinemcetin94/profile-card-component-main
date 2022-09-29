@@ -55,7 +55,6 @@ body{
 .img_vic{
     border-radius: 50%;
     border: 5px solid #fff;
-    bottom: 0;
     margin: 7em;
 }
 .content{
@@ -68,32 +67,36 @@ body{
     padding-top: 4em;
     font-weight: 700;
     color:  hsl(229, 23%, 23%);
+    font-size: large;
 }
 .text-name span{
     font-weight: 400;
     color: hsl(0, 0%, 59%);
     padding-left: .4em;
+    font-size: medium;
 }
 .text-city{
     color: hsl(0, 0%, 59%);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     margin-top: .6rem;
 }
 .stat{
     display: flex;
     justify-content: space-around;
-    border-top: .1px solid hsl(0, 0%, 59%);
+    border-top: .1em solid hsl(0, 0%, 59%);
     margin-top: 1em;
     padding: 2em 1em;
 }
 .stat li{
     font-weight: 700;
+    font-size: large;
 }
 .stat li span{
     display: block;
     font-weight: 400;
     font-size: .8rem;
     color: hsl(0, 0%, 59%);
+    padding-top:  .5em;
 }
 @media screen and (max-width:376px) {
     .profile{
